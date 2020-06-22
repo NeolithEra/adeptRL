@@ -35,7 +35,7 @@ setup(
         "numpy>=1.14",
         "gym[atari]>=0.10",
         "tensorboard>=1.14",
-        "cloudpickle>=0.5",
+        "cloudpickle>=0.5,<=1.3.0",
         "opencv-python-headless>=3.4",
         "pyzmq>=17.1.2",
         "docopt>=0.6",
